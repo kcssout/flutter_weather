@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+
+class Location extends StatelessWidget {
+  final String location;
+
+  Location({Key key, @required this.location})
+  :assert(location != null),
+  super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Text(
+      location,
+      style: TextStyle(
+        fontSize: 30,
+        fontWeight: FontWeight.bold,
+        color:Colors.white,
+      ),
+
+    );
+  }
+
+}

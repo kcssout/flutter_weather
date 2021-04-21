@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_weather/repositories/WeatherRepository.dart';
+import 'package:flutter_weather/widgets/CombinedWeatherTemperature.dart';
+import 'package:flutter_weather/widgets/LastUpdated.dart';
+import 'package:flutter_weather/widgets/Location.dart';
 
 import 'package:flutter_weather/widgets/widgets.dart';
 import 'package:flutter_weather/blocs/blocs.dart';

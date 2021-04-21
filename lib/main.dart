@@ -4,6 +4,7 @@ import 'package:flutter_weather/repositories/WeatherRepository.dart';
 import 'package:http/http.dart' as http;
 
 import 'models/WeatherApiClient.dart';
+import 'widgets/Weather.dart';
 
 void main() {
   BlocSupervisor().delegate = SimpleBlocDelegate();
